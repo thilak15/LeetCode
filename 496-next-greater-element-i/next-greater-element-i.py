@@ -34,6 +34,7 @@ class Solution:
         for i in nums1:
             res.append(next_l[i])
         return res
-
+# Time comlexity for this approach is O(m+n)
+# space complexity is o(m+n)
 
 
