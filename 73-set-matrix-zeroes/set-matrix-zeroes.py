@@ -18,3 +18,6 @@ class Solution:
                 if row[i]==0 or col[j]==0:
                     matrix[i][j]=0
         return matrix
+
+        #Time complexity O(m*n)
+        # space complexity O(m+n)
