@@ -4,7 +4,7 @@ class Solution:
         max_height = 0
         n = len(heights)
         for i in range(n-1, -1,-1):
-            if heights[i] > max_height:
+            if heights[i] >= max_height:
                 res.append(i)
                 max_height = heights[i]
         return res[::-1]"""
