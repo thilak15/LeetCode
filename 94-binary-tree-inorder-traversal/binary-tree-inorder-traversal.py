@@ -10,3 +10,4 @@ class Solution:
         if root is None:
             return []
         return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right)
+        # we can also do this by using stack
