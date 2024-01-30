@@ -11,5 +11,7 @@ class Solution:
                 merged.append(i)
             else:
                 merged[-1][1]=min(merged[-1][1],i[1])
-        print(merged)
         return len(merged)
+    # This is same as merging intervals sor the array using the first values and merge the intevals only diffrenece is we consider the mnimum value while merging the intrval so that the common point will be there
+    # Time complexity O(nlogn)
+    # space complexity O(n)
